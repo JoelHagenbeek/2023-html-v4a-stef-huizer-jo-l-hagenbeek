@@ -24,3 +24,17 @@
    background-color: blue;
 }
 
+nav {
+   background-color: black;
+   color: grey;
+}
+
+nav h3 {
+   float: left;
+   background-color: black;
+}
+
+nav img {
+   float: left;
+   margin: 0% 5%;
+}
