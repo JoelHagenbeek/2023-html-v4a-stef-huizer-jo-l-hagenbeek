@@ -22,6 +22,8 @@
 
 #main_wrapper {
    background-color: blue;
+   width:100%;
+   height:10000px;
 }
 
 nav {
