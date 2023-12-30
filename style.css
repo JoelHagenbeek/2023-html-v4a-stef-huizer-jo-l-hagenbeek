@@ -19,10 +19,13 @@
 /* add your css here, feel free to use comments and order them logically for better readability */
 
 * {margin: 0;
-   padding: 0;}
+   padding: 0;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: 300;
+}
 
 
-#main_wrapper {
+.wrapper {
    background-color: #a69f95;
    width:100%;
    height:10000px;
@@ -35,6 +38,7 @@ nav {
    width: 100%;
    top: 0;
    position: fixed;
+   z-index: 999;
 }
 
 nav a {
@@ -54,10 +58,7 @@ nav h3 {
    float: left;
    background-color: black;
    width: 20%;
-   padding: 38px 0px;
-   font-size: 25;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   font-weight: 300;
+   padding: 35px 0px;
    text-align: center;
 }
 
@@ -70,6 +71,32 @@ nav img {
    max-height: 50px;
 }
 
+#opvulling {
+   float: left;
+   height: 100px;
+   width: 100%;
+   background-color: red;
+}
+
+.overlayText h1 {
+   color: white;
+   font-size: 75px;
+   align-self: center;
+   position: absolute;
+   top: 30%;
+   right: 10%;
+   z-index: 1;
+}
+
+.overlayText p {
+   color: white;
+   font-size: 25px;
+   align-self: center;
+   position: absolute;
+   top: 40%;
+   right: 30%;
+   z-index: 1;
+}
 
 article{
    width: 400px;
