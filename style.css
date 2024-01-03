@@ -24,6 +24,7 @@
    font-weight: 300;
 }
 
+/*index*/
 
 .wrapper {
    background-color: #a69f95;
@@ -98,12 +99,28 @@ nav img {
    z-index: 1;
 }
 
+/*Collectie*/
+
+.collectie{
+   width: 100%;
+   background-color: black;
+}
+
+.collectie h1{
+   margin-left: 5%;
+}
+
+.filler{
+   height:121px;
+   background-color: pink;
+}
+
+
 article{
    width: 400px;
    height: auto;
    margin: 3%;
-   float: left;
-   
+   float: left;  
 }
 
 article img{
