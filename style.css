@@ -77,7 +77,10 @@ nav img {
    height: 100px;
    width: 100%;
    background-color: red;
+   position: fixed;
 }
+
+
 
 .overlayText h1 {
    color: white;
@@ -89,15 +92,37 @@ nav img {
    z-index: 1;
 }
 
-.overlayText p {
-   color: white;
-   font-size: 25px;
+.overlayText h2 {
+   color: black;
+   padding: 4px;
+   font-size: 33px;
    align-self: center;
    position: absolute;
    top: 40%;
-   right: 30%;
+   right: calc(10% + 186px);
    z-index: 1;
+   background-color: white;
 }
+
+.overlayText h3 {
+   color: black;
+   padding: 4px;
+   font-size: 33px;
+   align-self: center;
+   position: absolute;
+   top: 40%;
+   right: 10%;
+   z-index: 1;
+   background-color: white;
+}
+
+.highlights {
+   background-color: white;
+   text-align: center;
+   padding: 50px 0px 100px;
+   font-size: xx-large;
+}
+
 
 /*Collectie*/
 
