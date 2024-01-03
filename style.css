@@ -32,6 +32,8 @@
    height:10000px;
 }
 
+/*navbar*/
+
 nav {
    background-color: black;
    color: white;
@@ -80,7 +82,7 @@ nav img {
    position: fixed;
 }
 
-
+/*homepagevideo*/
 
 .overlayText h1 {
    color: white;
@@ -116,12 +118,28 @@ nav img {
    background-color: white;
 }
 
+/*highlights*/
+
 .highlights {
    background-color: white;
    text-align: center;
-   padding: 50px 0px 100px;
+   padding: 50px 0px 50px;
    font-size: xx-large;
 }
+
+.highlights img {
+   width: 20%;
+   margin: 5% 2.5%;
+   border-radius: 10%;
+   transition: 0.5s ease;
+}
+
+
+.highlights img:hover {
+   width: 25%;
+   margin:2.5%;
+}
+
 
 
 /*Collectie*/
