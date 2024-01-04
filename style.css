@@ -169,3 +169,20 @@ article{
 article img{
    width: 100%;
 }
+
+/*Product*/
+
+.fillerproduct{
+   height:100px;
+   background-color: pink;
+}
+
+.plaatjeproduct{
+   width: 50%;
+   height:auto;
+   float: left;
+}
+
+.plaatjeproduct img{
+   width: 100%;
+}
