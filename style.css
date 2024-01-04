@@ -186,3 +186,25 @@ article img{
 .plaatjeproduct img{
    width: 100%;
 }
+
+.wrapperbeschrijving{
+   width: 50%;
+   height:auto;
+   background-color: aqua;
+   float: right;
+}
+
+.titleproduct{
+   height:100px;
+}
+
+.titleproduct h1{
+   margin: 10%;
+   font-size: 300%;
+   font-weight: bold;
+}
+
+.beschrijvingproduct{
+   margin: 0% 10% 0% 10%;
+}
+
