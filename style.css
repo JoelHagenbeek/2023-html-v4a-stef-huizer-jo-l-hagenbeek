@@ -141,7 +141,19 @@ nav img {
    margin:2.5%;
 }
 
+/*Mooie grote fotos op homepage*/
 
+
+
+.mooiegrotehomepagefotos img {
+   float: left;
+   object-fit: cover;
+   object-position: center;
+}
+
+#mooiegrotehomepagefoto2 {
+   max-height: 481px;
+}
 
 /*Collectie*/
 
