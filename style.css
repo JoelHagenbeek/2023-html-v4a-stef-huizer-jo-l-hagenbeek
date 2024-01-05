@@ -171,7 +171,9 @@ article img{
    width: 100%;
 }
 
+
 /*Product*/
+
 
 .fillerproduct{
    height:100px;
@@ -189,10 +191,15 @@ article img{
 }
 
 .wrapperbeschrijving{
-   width: 50%;
+   width: 40%;
+   padding:5%;
    height:auto;
-   background-color: aqua;
+   background-color: beige;
    float: right;
+}
+
+.wrapperbeschrijving a{
+   text-decoration: none;
 }
 
 .titleproduct{
@@ -200,21 +207,51 @@ article img{
 }
 
 .titleproduct h1{
-   margin: 10%;
-   font-size: 300%;
    font-weight: bold;
+   font-size: 300%;
 }
 
 .adviesprijs{
-   margin: 0% 10% 0% 10%;
+   margin: 0% 10% 0% 0%;
    float: left;
+   text-decoration-line: line-through;
+   color: black;
 }
 
 .prijs{
-   float:none
+   float: left;
+   color:red;
+}
+
+.pluspunten{
+   float: none;
 }
 
 .beschrijvingproduct{
-   margin: 0% 10% 0% 10%;
+   margin: 10% 0% 10% 0%;
+   width: 100%;
 }
+
+.productspecificatie ol li{
+   margin-left: 20%;
+}
+
+.pluspunten{
+   margin: 5%;
+
+}
+
+.koopproduct{
+   margin:5%;
+   background-color: black;
+   color: white;
+   width:80%;
+   height: 100px;
+   font-size: 60px;
+}
+
+.koopproduct h2{
+text-align: center;
+}
+
 
