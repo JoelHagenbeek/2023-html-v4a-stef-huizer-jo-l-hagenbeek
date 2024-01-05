@@ -204,6 +204,15 @@ article img{
    font-weight: bold;
 }
 
+.adviesprijs{
+   margin: 0% 10% 0% 10%;
+   float: left;
+}
+
+.prijs{
+   float:none
+}
+
 .beschrijvingproduct{
    margin: 0% 10% 0% 10%;
 }
