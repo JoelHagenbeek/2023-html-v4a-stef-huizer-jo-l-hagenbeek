@@ -297,6 +297,7 @@ article img{
 .prijs{
    float: left;
    color:red;
+   width: 80%;
 }
 
 .pluspunten{
@@ -314,8 +315,13 @@ article img{
 
 .pluspunten{
    margin: 5%;
-
+   margin-left: 0%;
+   width: 20%;
+   float: left;
+   background-color: black;
+   color: white;
 }
+
 
 .koopproduct{
    margin:5%;
