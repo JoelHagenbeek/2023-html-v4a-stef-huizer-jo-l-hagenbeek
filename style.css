@@ -300,23 +300,35 @@ article img{
    width: 80%;
 }
 
-.pluspunten{
-   float: none;
-}
 
 .beschrijvingproduct{
-   margin: 10% 0% 10% 0%;
+   margin: 10% 0% 0% 0%;
    width: 100%;
+   float:none;
+   background-color: white;
 }
 
 .productspecificatie ol li{
    margin-left: 20%;
 }
 
-.pluspunten{
+
+.pluspunten1en2{
    margin: 5%;
    margin-left: 0%;
-   width: 20%;
+   width: auto;
+   padding:1% 5% 1% 5%;
+   float: left;
+   background-color: black;
+   color: white;
+}
+
+.pluspunten3{
+   margin: 5%;
+   margin-left: 0%;
+   margin-right: 10%;
+   width: auto;
+   padding:1% 5% 1% 5%;
    float: left;
    background-color: black;
    color: white;
