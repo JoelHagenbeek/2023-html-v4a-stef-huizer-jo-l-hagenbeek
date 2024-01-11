@@ -86,12 +86,12 @@ nav img {
    max-height: 50px;
 }
 
-#opvulling {
+.opvulling {
    float: left;
    height: 100px;
    width: 100%;
    background-color: red;
-   position: fixed;
+   position: auto;
 }
 
 /*homepagevideo*/
