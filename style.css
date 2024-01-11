@@ -31,9 +31,9 @@ a {
 /*index*/
 
 .wrapper {
-   background-color: #a69f95;
+   background-color: white;
    width:100%;
-   height:10000px;
+   /*height:10000px;*/
    
 }
 
@@ -96,6 +96,9 @@ nav img {
 
 /*homepagevideo*/
 
+video {
+   position: relative;
+}
 
 .overlayText h1 {
    color: white;
@@ -113,8 +116,8 @@ nav img {
    font-size: 35px;
    align-self: center;
    position: absolute;
-   top: 42%;
-   right: calc(10% + 265px);
+   top: 41%;
+   right: calc(10% + 180px);
    z-index: 1;
    background-color: white;
 }
@@ -125,7 +128,7 @@ nav img {
    font-size: 35px;
    align-self: center;
    position: absolute;
-   top: 42%;
+   top: 41%;
    right: 10%;
    z-index: 1;
    background-color: white;
@@ -229,19 +232,16 @@ nav img {
    padding: 50px;
 }
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -257,20 +257,17 @@ nav img {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: #a69f95;
 }
 
-/* Caption text */
 .text {
-  color: #606b73;
+  color: #a69f95;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -279,7 +276,6 @@ nav img {
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -288,13 +284,12 @@ nav img {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #a69f95;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -304,7 +299,6 @@ nav img {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -320,7 +314,7 @@ nav img {
 footer {
    width: 100%;
    height: 150px;
-   background-color: red;
+   background-color: #a69f95;
    float: left;
    position: relative;
 }
@@ -343,8 +337,16 @@ footer h2 {
    color: black;
    font-size: 22px;
    top: 25%;
-   left: 45%;
+   left: 48%;
    position: absolute; 
+}
+
+footer a {
+   color: black;
+   font-size: 14;
+   left: 48%;
+   top: 50%;
+   position: absolute;
 }
 
 /*Collectie*/
