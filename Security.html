@@ -21,7 +21,345 @@
 
       <div class="opvulling"></div>
 
-     
+
+
+    </div>
+
+  <div class="security"> <h1>SECURITY</h1>
+  <div id="scroll"></div>
+  
+  <div id="digitale-veiligheid"><h2>Hoofdstuk 1: Digitale Veiligheid</h2></div>
+
+    <div id="1_1"><h5>
+      De opkomst van digitale technologieën heeft een diepgaande invloed op onze samenleving en levensstijl. 
+      Het gebruik van digitale technologieën, zoals op sociale media en bij banken, creëert individuele digitale identiteiten waar veel persoonlijke gegevens worden vastgelegd. 
+      Digitale beveiliging is cruciaal om deze gegevens te beschermen tegen criminele activiteiten, hackers en ongeautoriseerde toegang.
+
+      Digitale beveiliging, ook bekend als digital security, omvat maatregelen om de vertrouwelijkheid, integriteit en beschikbaarheid van digitale gegevens te waarborgen. Iedereen die betrokken is bij het verwerken van digitale gegevens draagt verantwoordelijkheid, inclusief softwareontwikkelaars en individuele gebruikers. Maatregelen omvatten het waarborgen van:
+      <br><br>
+      <ul>
+      <li><b>Vertrouwelijkheid</b>: de afscherming van gegevens tegen ongeoorloofde inzage. </li>
+      <li><b>Integriteit</b>: bescherming van gegevens tegen verlies of (on)bedoelde wijzigingen. </li>
+      <li><b>Beschikbaarheid</b>: de mate van storingsvrije toegang tot de gegevens. </li>
+    </ul>
+    
+    </h5>
+      </div>
+
+    <br>
+
+    <div id="1.2">
+      <h3>Vertrouwelijkheid</h3>
+
+      <p>Authenticatie is het proces van het controleren of een gebruiker toegang mag hebben tot persoonlijke gegevens. Er zijn verschillende vormen van authenticatie, waaronder iets dat je <b>weet</b> (wachtwoord), iets dat je <b>hebt</b> (sleutel), of iets dat je <b>bent</b> (vingerafdruk). 
+        <b>Identificatie</b> vraagt "Wie ben je?" en kan bijvoorbeeld worden gedaan met een gebruikersnaam/wachtwoord of vingerafdrukscan. <b>Verificatie</b> controleert of je echt bent, en dit gebeurt op basis van bekende gegevens, zoals in een database.
+      <br><br>
+      <B>Two-factor authentication</B> combineert twee vormen van authenticatie, zoals een pinpas (<i>iets dat je hebt</i>) en een pincode (<i>iets dat je weet</i>). Op het internet wordt dit vaak gebruikt, waarbij naast gebruikersnaam/wachtwoord ook een verificatiecode wordt gevraagd.
+      
+      <b>Screening</b>, gerelateerd aan authenticatie, identificatie en verificatie, identificeert personen of voertuigen via bijvoorbeeld camera's. Personen op een blacklist leiden tot meldingen bij autoriteiten, terwijl geïdentificeerde personen zonder vermelding op de blacklist geen actie vereisen.</p>
+      </div>
+
+      <br>
+
+    <div id="1.3">
+      <h3> Integriteit </h3>
+
+      <p>In het schoolsysteem hebben docenten meer <B>rechten</B> dan leerlingen, en het cijfersysteem moet controleren of een gebruiker toegang heeft en welke rechten deze heeft. Deze controle valt onder vertrouwelijkheid, terwijl de controle van de rechten van een vertrouwde gebruiker <b>autorisatie</b> wordt genoemd, ook bekend als een controle van de <b>integriteit</b>. Daarnaast zijn er ook verschillende eisen die aan informatie gesteld worden:</p>
+
+      <br>
+      
+      <table>
+        <tr>
+          <th>Eis</th>
+          <th>Controlevraag</th>
+        </tr>
+
+        <tr>
+          <td>Volledigheid</td>
+          <td>Ontbreekt er iets?</td>
+        </tr>
+
+        <tr>
+          <td>Relevantie</td>
+          <td>Is de informatie afgestemd op het te bereiken doel?</td>
+        </tr>
+
+        <tr>
+          <td>Betrouwbaarheid</td>
+          <td>Is de informatie correct en afkomstig van een goede bron?</td>
+        </tr>
+
+        <tr>
+          <td>Overzichtelijkheid</td>
+          <td>Is de informatie goed gestructureerd?</td>
+        </tr>
+
+        <tr>
+          <td>Beschikbaarheid</td>
+          <td>Is de informatie op het juiste moment beschikbaar?</td>
+        </tr>
+
+        <tr>
+          <td>Doelgerichtheid</td>
+          <td>Is de informatie gericht op de gebruiker (de doelgroep)?</td>
+        </tr>
+      </table>
+
+      <br>
+
+      <p>Integriteit van gegevens betekent dat gegevens alleen verwerkt mogen worden door gebruikers met de juiste rechten, zoals in het cijfersysteem. Het begrip integriteit strekt zich uit tot computernetwerken, waar specifieke schijven of mappen alleen toegankelijk zijn voor gebruikers met specifieke <b>rollen</b>.
+
+        Autorisatie, geconfigureerd door systeembeheerders via file permissions, regelt de toegang tot bestanden op het netwerk. Het waarborgen van integriteit bij het delen van bestanden, bijvoorbeeld via internet of USB-stick, is essentieel. Checksums, zoals bij Audacity-installatiebestanden, dienen als vingerafdrukken om de integriteit van bestanden te verifiëren.
+        
+        Het maken van back-ups is een andere methode om de integriteit van data te waarborgen. Voor geldovermakingen, zoals bij IBAN's, wordt een controlegetal gebruikt om typfouten te voorkomen en de validiteit van het IBAN te verifiëren. Dit proces, vergelijkbaar met checksums, helpt bij het voorkomen van fouten bij het invoeren van rekeningnummers.
+        </p>
+
+    </div>
+
+    <br>
+
+    <div id="1.4"> 
+      <h3>Beschikbaarheid</h3>
+      <p>
+      In voorgaande paragrafen heb je gelezen over vertrouwelijkheid en integriteit. Een derde aspect is beschikbaarheid.
+
+      Data moet altijd beschikbaar zijn, wat onderhoud en back-ups vereist. Een back-up kan op verschillende manieren worden gemaakt, zoals via clouddiensten of externe opslag. Het <b>3-2-1 back-up systeem</b> wordt aanbevolen: drie kopieën van gegevens, op twee verschillende manieren opgeslagen, waarvan één op een andere locatie.
+        </p>
+
+        <br>
+
+      <h4>Encryptie</h4>
+      <p>
+      Encryptie wordt gebruikt om gevoelige gegevens te beschermen, zoals wachtwoorden, pincodes, en vingerafdrukken. Het 'husselt' de inhoud met een sleutel, die geheim moet blijven. Encryptie wordt ook gebruikt voor communicatiebeveiliging, zoals end-to-end versleuteling in apps als WhatsApp.
+
+      Voor het opslaan van wachtwoorden en dergelijke wordt hashing gebruikt. Hashing 'husselt' het wachtwoord, maar je kunt niet teruggaan naar het origineel. Websites vergelijken hashes om wachtwoorden te verifiëren.
+
+      DDoS-aanvallen (Distributed Denial Of Service) kunnen beschikbaarheid beïnvloeden door overweldigende verzoeken. Bescherming omvat verkeersfiltering en gespecialiseerde anti-DDoS-diensten.
+    </p>
+
+    </div>
+
+    <br>
+
+    <div id="bedreigingen"><h2>Hoofdstuk 2: Bedreigingen</h2></div>
+
+    <div id="2.1">
+      Digitale veiligheid wordt bedreigd door verschillende zwakheden die aanvallers benutten om toegang te verkrijgen tot digitale gegevens. In dit hoofdstuk behandelen we de volgende zwakheden:
+Zwakheden in de architectuur
+Zwakheden in communicatie
+Zwakheden bij gebruikers
+
+    </div>
+
+    <br>
+
+    <div id="2.2">
+      Zwakheden in computerarchitectuur, bestaande uit de fysieke laag, logische laag en toepassingenlaag, ontstaan door ontwerpfouten of communicatietekortkomingen tussen lagen. Bijvoorbeeld, een zwakte kan leiden tot ongeoorloofd gebruik van de camera op een telefoon, omzeilen van pop-ups voor toestemming. Bekende voorbeelden zijn SQL-injecties, waarbij kwaadwillenden gegevens in een database aanpassen. Beveiliging vereist testen, vaak uitgevoerd door ethische hackers, om zwakheden proactief op te sporen en te verhelpen.
+
+    </div>
+
+    <br>
+
+    <div id="2.3">
+
+      Apparaten communiceren via internet, maar deze communicatie moet veilig zijn. Een man-in-the-middle-aanval kan de verbinding tussen apparaten afluisteren, zoals bij openbare wifi-netwerken. HTTPS (Secure HTTP) beveiligt de verbinding met encryptie, waardoor gegevens niet leesbaar zijn voor onbevoegden. De S in HTTPS staat voor secure. De meeste apps en websites gebruiken HTTPS om de veiligheid te waarborgen. Een SSL-certificaat, verkregen van een centrale organisatie, is nodig voor HTTPS. End-to-end-encryptie gaat verder dan HTTPS door gegevens te versleutelen voordat ze het internet opgaan, waardoor alleen de verzender en ontvanger ze kunnen ontsleutelen, wat extra bescherming biedt tegen aanvallen op zowel communicatie- als architectuurzwakheden.
+
+    </div>
+
+    <br>
+
+    <div id="2.4">
+
+      Gebruikers vormen vaak de zwakste schakel in digitale veiligheid, vooral als het gaat om het beheer van wachtwoorden. Veel mensen neigen ertoe eenvoudige wachtwoorden te kiezen, zoals "Welkom123" of hun eigen naam, wat hun kwetsbaarheid vergroot voor brute force-aanvallen. Bij deze aanvallen probeert een kwaadwillende alle mogelijke wachtwoorden totdat het juiste is gevonden. Speciale programma's kunnen duizenden wachtwoorden per seconde proberen, waardoor zelfs een matig sterk wachtwoord in gevaar kan komen.
+
+Om het kraken van wachtwoorden te voorkomen, is het essentieel om wachtwoorden zo complex mogelijk te maken:
+Lengte: Hoe langer het wachtwoord, hoe veiliger.
+Diversiteit: Gebruik verschillende soorten tekens (hoofdletters, kleine letters, cijfers, speciale tekens).
+Vermijd voorspelbare informatie: Gebruik geen voor de hand liggende woorden, zoals woorden uit het woordenboek, je eigen naam, of de naam van de website.
+Unieke wachtwoorden: Gebruik voor elke website of dienst een ander wachtwoord.
+Regelmatig wijzigen: Pas wachtwoorden minimaal jaarlijks aan.
+
+
+Veel websites stellen limieten in voor het aantal keren dat een wachtwoord mag worden geprobeerd om brute force-aanvallen te voorkomen. Echter, bij zwakheden in de architectuur kan dit nog steeds een risico vormen.
+
+Om het beheer van complexe wachtwoorden te vergemakkelijken, kan het gebruik van een passwordmanager worden overwogen. Deze tools genereren en bewaren sterke wachtwoorden en vereisen dat je slechts één hoofdwachtwoord onthoudt. Zo'n manager kan ook handig zijn bij het automatisch invullen van inloggegevens.
+
+Regelmatig publiceren nieuwswebsites lijsten met populaire wachtwoorden, gebaseerd op openbaar gemaakte hacks. Opvallend is dat eenvoudige wachtwoorden nog steeds hoog scoren, zelfs in de top-50 en top-5 van deze lijsten. <b>HIER FOTO</b>
+
+
+Het bewustzijn over zwakke wachtwoorden wordt vaak vergroot door lijsten van meest gebruikte wachtwoorden na gegevenslekken. Het is raadzaam om regelmatig te controleren of jouw gegevens zijn betrokken bij een dergelijk lek via platforms zoals "haveibeenpwned.com". Houd er rekening mee dat gestolen gegevens door hackers kunnen worden ingezet voor phishingaanvallen en andere vormen van misbruik. Het aannemen van goede wachtwoordpraktijken is een fundamenteel aspect van het versterken van je digitale beveiliging.
+
+    </div>
+
+    <br>
+
+    <div id="2.5">
+
+      Criminele Technieken voor Gegevensverkrijging
+
+1. Social Engineering:
+Social engineering is een niet-digitale methode waarbij aanvallers psychologische trucjes gebruiken om mensen te manipuleren. Ze doen zich voor als anderen, zoals medewerkers van bedrijven of banken, om slachtoffers gegevens of wachtwoorden te laten vrijgeven. Aanvallen kunnen plaatsvinden via telefoongesprekken of e-mails, vaak goed voorbereid en lastig te doorzien.
+
+2. Phishing:
+Phishing is een techniek waarbij criminelen social engineering combineren met valse e-mails om slachtoffers naar nagemaakte websites te lokken. De e-mails, vaak van banken, suggereren een probleem met de rekening dat opgelost moet worden door in te loggen op een vervalste website. Hierdoor worden inloggegevens gestolen.
+
+en
+
+    </div>
+
+    <br>
+
+    <div id="2.6">
+      
+      Malware: Kwaadaardige Software
+Malware, afgeleid van 'malicious' en 'software', omvat alle programma's met kwaadwillende bedoelingen. De belangrijkste soorten zijn:
+Trojan Horse:
+Verborgen als onschuldige bestanden.
+Gebruikers activeren ze onbedoeld, vaak via e-mailbijlagen.
+Worm:
+Verspreidt zich automatisch door netwerken.
+Kan schade aanrichten en gebruikt netwerkcapaciteit.
+Virus:
+Besmet bestaande software en verspreidt zich.
+Nestelt zich in uitvoerbare bestanden.
+Spyware en Adware:
+Spyware verzamelt computergebruiksinformatie.
+Adware toont ongewenste advertenties, soms met spyware-functies.
+Ransomware:
+Versleutelt bestanden en eist losgeld voor toegang.
+Vaak binnengebracht als een Trojan horse of via een worm.
+Voorbeelden van Wormen:
+Blaster-worm (2003):
+Aanval op Windows Update-servers, veroorzaakte foutmeldingen.
+'ILOVEYOU' worm (2000):
+Verspreidde zich via e-mail, infecteerde miljoenen systemen.
+Aanbevelingen bij Ransomware:
+Niet betalen, aangezien toegang niet gegarandeerd is.
+Ransomware is lucratief voor criminelen; betalen versterkt dit.
+Onderzoekers ontdekken fouten in ransomware, waardoor bestanden hersteld kunnen worden zonder betaling.
+Voorbeeld van een Ransomware-aanval (22 april 2023):
+Nederlandse provider getroffen, klanten weekend lang zonder internet.
+Aanvallers creëren tijdsdruk om betaling te forceren.
+Slachtoffers betalen vaak tegen politieadvies in om verdere schade te voorkomen.
+Onderzoekers vinden fouten in ransomware, waardoor herstel zonder betaling mogelijk is.
+
+</div>
+
+<br>
+
+    <div id="aanvaller-en-verdedigers"><h2>Hoofdstuk 3: Aanvallers en Verdedigers </h2></div>
+
+    <div id="3.1">Digitale Aanvallers & Verdedigers
+      In de digitale wereld spelen hackers en beveiligingsexperts een voortdurend kat-en-muisspel. Hackers kunnen goede of kwade bedoelingen hebben, waarbij ethical hackers samenwerken met organisaties om de beveiliging te verbeteren. Samenwerking en ethisch hacken zijn cruciaal voor het versterken van digitale systemen.
+      </div>
+
+      <br>
+
+    <div id="3.2">Computercriminaliteit: Diefstal, Fraude en Afpersing
+Diefstal van data kan op diverse manieren gebeuren, zoals hacking van apparaten of toegang tot databases. De gestolen gegevens zijn vaak waardevol en kunnen leiden tot identiteitsfraude of afpersing.
+
+Fraude, een vorm van oplichting, omvat praktijken zoals phishing, spyware, en oplichting via online shops, social media, of online dating.
+
+Afpersing kan plaatsvinden met malware, zoals ransomware, of door dreiging met openbaarmaking van gevoelige gegevens, waaronder seksueel expliciet materiaal.
+
+Het is cruciaal om passende beveiligingsmaatregelen te nemen om dergelijke vormen van computercriminaliteit te voorkomen. In geval van slachtofferschap wordt aangifte bij de politie sterk aanbevolen.
+</div>
+
+  <br>
+
+    <div id="3.3">Hacken en Computervredebreuk
+Hacken, ook wel omschreven als computervredebreuk, vormt een ernstige bedreiging voor cybersecurity en wordt als misdrijf beschouwd. De wetgeving in zowel Nederland als de Europese Unie bevat specifieke bepalingen tegen computervredebreuk, waarbij zowel succesvolle inbraken als pogingen strafbaar zijn.
+
+Computervredebreuk omvat ongeautoriseerde toegang tot computersystemen of netwerken, ongeacht de gebruikte methode, of het nu gaat om geavanceerde hackpogingen of eenvoudig wachtwoordafkijken. Zowel geslaagde als mislukte hackpogingen worden strafrechtelijk vervolgd.
+
+Het bezit van hulpmiddelen met de bedoeling te hacken, zoals keyloggers of hacksoftware, is eveneens strafbaar. Hoewel het moeilijk kan zijn vast te stellen of dergelijke tools bedoeld zijn voor kwaadwillende doeleinden, blijft hun bezit strafbaar.
+
+De aanwezigheid van zwakke beveiliging rechtvaardigt niet het hacken van een website of app. Slechte beveiliging is weliswaar verwijtbaar, maar biedt geen rechtsgeldige reden voor inbreuk. Het melden van beveiligingslekken is echter toegestaan en wordt aangemoedigd.
+Naast het binnendringen zelf wordt ook het kopiëren, verwijderen, wijzigen van gegevens of het toebrengen van schade na een inbraak beschouwd als een extra strafbaar feit.
+
+</div>
+
+  <br>
+
+    <div id="3.4">Hackers en Ethical Hacking
+Niet alle vormen van hacken zijn crimineel. Ethical hackers spelen een cruciale rol bij het verbeteren van de internetveiligheid. In tegenstelling tot kwaadwillende hackers, melden ethische hackers beveiligingslekken aan de betrokken organisatie om hen in staat te stellen het lek te dichten. Veel bedrijven belonen ethische hackers voor deze meldingen.
+
+In sommige gevallen reageren bedrijven echter traag op gemelde beveiligingsproblemen, wat een risico vormt voor gebruikers. In dergelijke situaties kan een ethische hacker ervoor kiezen om het beveiligingslek openbaar te maken, waardoor gebruikers worden gewaarschuwd. De meeste ethische hackers volgen een tussenvorm genaamd "responsible disclosure," waarbij ze het lek eerst melden aan de verantwoordelijke partij en het later openbaar maken.
+
+Hoewel ethische hackers de wet overtreden door in te breken, worden ze over het algemeen niet vervolgd. Hun acties dienen een publiek belang door bij te dragen aan een veiliger internet. De vrijheid om informatie over ernstige beveiligingsproblemen te publiceren valt onder persvrijheid, ongeacht of de hacker als journalist wordt beschouwd.
+Er gelden echter regels voor ethisch hacken. Het is alleen toegestaan als het de enige manier is om een ernstige misstand aan te tonen, en het mag niet verder gaan dan dat. Het stelen van gegevens of onnodig veel computers hacken leidt wel tot strafrechtelijke vervolging.
+</div>
+
+<br>
+
+    <div id="3.5">Zero Days: Digitale Wapens in de Cyberoorlog
+      Een zero day is een onontdekte kwetsbaarheid in software, een waardevol digitaal wapen verhandeld voor tienduizenden tot honderdduizenden euro's. Criminelen gebruiken ze voor schadelijke aanvallen, terwijl beveiligingsbedrijven ze aanschaffen om systemen te beschermen. Overheden maken ook gebruik van zero days voor spionage en het platleggen van vijandelijke systemen.
+      
+      De handel in zero days wordt vergeleken met wapenhandel, waarbij deze digitale wapens kunnen leiden tot datadiefstal en systeemverstoring. Er is discussie over het gebruik ervan, omdat het de kwetsbaarheid in stand houdt. In Nederland mag de overheid zero days alleen onder strikte voorwaarden gebruiken. Het melden van kwetsbaarheden aan ontwikkelaars wordt als veiligere praktijk beschouwd voor de digitale veiligheid.
+      </div>
+
+      <br>
+
+    <div id="maatregelen">Hoofdstuk 4: Maatregelen</div>
+
+    <div id="4.1">Partijen zoals cybersecuritybedrijven, overheden, softwareontwikkelaars en gebruikers spelen een cruciale rol in het waarborgen van de veiligheid van ICT-systemen. Er bestaan diverse maatregelen, onderverdeeld in preventie, detectie, repressie en correctie, om de veiligheid van systemen te versterken. Encryptie is essentieel voor gegevensbeveiliging, en in de laatste paragraaf staan tips voor individuen om hun eigen veiligheid te vergroten.
+    </div>
+
+    <br>
+
+    <div id="4.2">Preventieve beveiligingsmaatregelen zijn ontworpen om problemen te voorkomen, beginnend bij veilige hard- en software, regelmatige software-updates en goede authenticatie. Het minimaliseren van kwetsbaarheden in hard- en software vermindert de kans op indringers. Het beperken van toegang tot alleen noodzakelijke manieren is essentieel, aangezien elke nieuwe toegangsmogelijkheid een potentiële zwakte kan introduceren. Encryptie van opgeslagen of verzonden gegevens is een cruciale preventieve stap, en back-ups maken beschermt tegen gegevensverlies. Gebruikers spelen ook een actieve rol in preventie. Bedrijven die persoonsgegevens verwerken, zijn wettelijk verplicht preventieve maatregelen te nemen volgens de Europese privacywetgeving, en ze moeten uitleggen hoe ze de gegevens beschermen. Dit stelt gebruikers in staat om te beoordelen of hun gegevens veilig worden bewaard.
+</div>
+
+  <br>
+
+    <div id="4.3">Detectie
+
+Software is inherent onvolmaakt en bevat altijd kwetsbaarheden die kunnen worden misbruikt. Daarom is detectie essentieel om misbruik te controleren, zoals het monitoren van inlogpogingen en het blokkeren van gebruikers bij verdachte activiteiten. Firewalls zijn cruciale detectiehulpmiddelen, scannen al het inkomende netwerkverkeer op kwaadaardige gegevens en controleren de betrouwbaarheid van de bron. Anti-malwaresoftware is een tweede belangrijk middel, speurt naar en verwijdert malware met behulp van uitgebreide databases. App Stores voeren controles uit op nieuwe software om malware of ongeoorloofde gegevensverzameling te voorkomen.
+
+</div>
+
+  <br>
+
+    <div id="4.4">Repressieve maatregelen (repressie) en het herstellen van schade (correctie) zijn noodzakelijk bij aanvallen of het ontdekken van malware. De benodigde maatregelen variëren afhankelijk van het type aanval. Anti-malwaresoftware kan bijvoorbeeld voldoende zijn om malware van een apparaat te verwijderen. Een lichte DDoS-aanval kan resulteren in tijdelijke vertraging van een website. Voor ernstigere situaties, zoals serveruitval, kan worden overgeschakeld naar een back-upsysteem nadat het beveiligingslek is gedicht. Bij ernstige problemen kunnen systemen uitvallen, worden uitgeschakeld en kan financiële schade ontstaan door systeemuitval en correctiekosten.
+</div>
+
+<br>
+
+    <div id="4.5">Symmetrische encryptie is een vorm van encryptie waarbij één sleutel wordt gebruikt voor zowel het versleutelen als het ontsleutelen van gegevens. Een algoritme bepaalt de manier waarop de encryptie plaatsvindt, en het aantal posities dat elke letter in het alfabet wordt verschoven, staat bekend als de sleutel. Deze sleutel is essentieel om de oorspronkelijke tekst te herstellen. Het kat-en-muisspel tussen aanvallers en verdedigers draait om het breken van encryptie door aanvallers en het verbeteren ervan door verdedigers. Moderne symmetrische encryptiemethoden, zoals Advanced Encryption Standard (AES), gebruiken complexe algoritmes en moeilijk te kraken sleutels om de beveiliging te waarborgen.
+    </div>
+
+    <br>
+
+    <div id="4.6">Asymmetrische encryptie, ook bekend als public key encryptie, biedt een oplossing voor het veilig delen van versleutelde data tijdens transport. In tegenstelling tot symmetrische encryptie, waar één sleutel wordt gebruikt voor zowel versleuteling als ontsleuteling, maakt asymmetrische encryptie gebruik van twee sleutels: een publieke sleutel, die openbaar is, en een geheime sleutel, die geheim blijft. Bij het verzenden van een bericht versleutelt de verzender het met de publieke sleutel van de ontvanger, die het vervolgens kan ontsleutelen met zijn geheime sleutel. Dit proces maakt het veilig delen van versleutelde data mogelijk zonder de geheime sleutel te hoeven delen. Asymmetrische encryptie wordt breed toegepast in beveiligde data-overdracht, zoals bij HTTPS voor een veilige internetverbinding.
+</div>
+
+<br>
+
+    <div id="4.7">Om je digitale veiligheid te waarborgen, zijn er enkele essentiële maatregelen die je direct moet nemen:
+      Installeer software-updates onmiddellijk om kwetsbaarheden te verhelpen.
+      Zorg voor automatische vergrendeling op al je apparaten, bij voorkeur met gezichtsherkenning, vingerafdrukscanner, wachtwoord, patroon of pincode.
+      Gebruik sterke wachtwoorden en update ze minstens jaarlijks. Een passwordmanager kan hierbij handig zijn.
+      Maak regelmatig back-ups van je gegevens en zorg voor een optie om je smartphone op afstand te wissen in geval van diefstal.
+      Controleer bij inloggen op websites de beveiligde verbinding en de URL om phishing te voorkomen.
+      Download apps en software alleen van betrouwbare bronnen, zoals de Play Store, App Store of officiële fabrikantswebsites.
+      Wees voorzichtig met het klikken op links in social media, WhatsApp of e-mails.
+      Daarnaast zijn er aanvullende maatregelen die je veiligheid verder vergroten:
+      Denk goed na voordat je een app toegang geeft tot specifieke gegevens op je smartphone.
+      Installeer anti-malware- en anti-adwaresoftware op je computer en laat regelmatig scans uitvoeren.
+      Versleutel gegevens op externe opslagmedia, zoals harde schijven of USB-sticks, bijvoorbeeld met BitLocker in Windows.
+      Wees voorzichtig met het aansluiten van zelfgeprogrammeerde apparaten, zoals Arduino of Raspberry Pi, op het internet en verdiep je in de beveiligingsaspecten ervan.
+      </div>
+
+    </div>
+
+    <div id="opvulling-security"></div>
+
+    <div id="inhoudsopgave">
+      <br><br><br><br><br><br>
+      <a href="#scroll"><h1>Security</h1></a>
+      <a href="#digitale-veiligheid"><h2>Digitale Veiligheid</h2></a>
+      <a href="#1_1"><p>1.1 Inleiding</p></a>
+    </div>
 
       <footer>
 
@@ -32,7 +370,7 @@
     
       </footer>
       
-</div>
+
 
 
 </body>
