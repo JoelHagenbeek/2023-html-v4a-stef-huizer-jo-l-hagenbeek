@@ -353,10 +353,9 @@ footer h1 {
    float: left;
 }
 
-footer h2 {
+footer h2, h3 {
    color: white;
    font-size: 18px;
-   float: left;
 }
 
 
@@ -366,15 +365,12 @@ footer hr {
    background-color: white;
 }
 
-footer a {
-   color: black;
-   font-size: 14;
-   left: 48%;
-   top: 50%;
-   position: absolute;
+.socials {
+   height: 10%;
+   margin: 5px;
+   text-align: center;
+   width: 90%;
 }
-
-
 
 /*Collectie*/
 
