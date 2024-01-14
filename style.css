@@ -37,8 +37,7 @@ a {
 .wrapper {
    background-color: white;
    width:100%;
-   /*height:10000px;*/
-   
+   /*height:10000px;*/   
 }
 
 /*navbar*/
@@ -388,19 +387,18 @@ footer hr {
    background-color: pink;
 }
 
-
-article{
+article {
    width: 400px;
    height: 500px;
    margin: 3%;
    float: left; 
    background-color: gray; 
+   text-align: center;
 }
 
 article img{
    width: 100%;
 }
-
 
 /*Product*/
 

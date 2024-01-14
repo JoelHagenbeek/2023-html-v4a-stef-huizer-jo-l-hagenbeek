@@ -1,156 +1,153 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title> Amesun</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="navFooterHandler.js"></script>
-</head>
-
-<body>
-<div class="wrapper">
-  
-
-
-  <nav>
-    <ul>
-      <li><a href="index.html"> <img src = "plaatjes/Amesun Logo (1).PNG"> </a></li>
-      <li><a href="Kleding.html"><h3> Kleding </h3></a></li>
-      <li><a href="Speelgoed.html"><h3> Speelgoed </h3></a></li>
-      <li><a href="Accessoires.html"><h3> Accessoires </h3></a></li>
-      <li><a href="Security.html"><h3> Security </h3></a></li>
-      </ul>
-  </nav>
-
-  <!-- Dit is om de ruimte tussen de nav en de rest van de pagina op te vullen -->
-  <div class="opvulling"></div>
-
- <!-- Dit is de video op de hoofdpagina -->
-  <div> 
-    <video width="100%" autoplay muted loop>
-    <source src="plaatjes/video_hoofdpagina.mp4" type="video/mp4">
-    Deze browser ondersteunt geen videos
-  </video>
-  <div class="overlayText">
-  <h1> WINTERSALE </h1>
-  <a href="sale.html"><h2> SHOP SALE </h2></a>
-  </div>
-  </div>
-
-  <!-- Dit zijn de highlights -->
-  <div class="highlights">
-    <h1> HIGHLIGHTS </h1>
-    <a href="x-asseccoires6.html"><img src="plaatjes/baguetteplushie.png"></a>
-    <a href="x-kleding1.html"><img src="plaatjes/product-1-sexythanosbadpak.jpg"></a>
-    <a href="x-kleding6.html"><img src="plaatjes/Paardenhoofdmasker.png"></a>
-  </div>
-
-<!-- Nog even 2 grote mooie fotos -->
-  <div class="homepaginafoto1">
-    <a href="Speelgoed.html"><h1>SHOP SPEELGOED</h1></a>
-    <img src="plaatjes/Hoofdpaginafoto-Speelgoed.png" width="100%">
+  <head>
+    <title> Amesun</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="navFooterHandler.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <ul>
+          <li><a href="index.html"> <img src = "plaatjes/Amesun Logo (1).PNG"> </a></li>
+          <li>
+            <a href="Kleding.html">
+              <h3> Kleding </h3>
+            </a>
+          </li>
+          <li>
+            <a href="Speelgoed.html">
+              <h3> Speelgoed </h3>
+            </a>
+          </li>
+          <li>
+            <a href="Accessoires.html">
+              <h3> Accessoires </h3>
+            </a>
+          </li>
+          <li>
+            <a href="Security.html">
+              <h3> Security </h3>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Dit is om de ruimte tussen de nav en de rest van de pagina op te vullen -->
+      <div class="opvulling"></div>
+      <!-- Dit is de video op de hoofdpagina -->
+      <div>
+        <video width="100%" autoplay muted loop>
+          <source src="plaatjes/video_hoofdpagina.mp4" type="video/mp4">
+          Deze browser ondersteunt geen videos
+        </video>
+        <div class="overlayText">
+          <h1> WINTERSALE </h1>
+          <a href="sale.html">
+            <h2> SHOP SALE </h2>
+          </a>
+        </div>
+      </div>
+      <!-- Dit zijn de highlights -->
+      <div class="highlights">
+        <h1> HIGHLIGHTS </h1>
+        <a href="x-asseccoires6.html"><img src="plaatjes/baguetteplushie.png"></a>
+        <a href="x-kleding1.html"><img src="plaatjes/product-1-sexythanosbadpak.jpg"></a>
+        <a href="x-kleding6.html"><img src="plaatjes/Paardenhoofdmasker.png"></a>
+      </div>
+      <!-- Nog even 2 grote mooie fotos -->
+      <div class="homepaginafoto1">
+        <a href="Speelgoed.html">
+          <h1>SHOP SPEELGOED</h1>
+        </a>
+        <img src="plaatjes/Hoofdpaginafoto-Speelgoed.png" width="100%">
+      </div>
+      <div class="homepaginafoto2">
+        <img src="plaatjes/Hoofdpaginafoto-Kleding.png" width="100%">
+        <a href="Kleding.html">
+          <h1>SHOP KLEDING</h1>
+        </a>
+      </div>
+      <!--Slideshow-->
+      <!-- Credit naar w3schools -->
+      <div class="slideshow">
+        <h1>ACCESSOIRES</h1>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="plaatjes/slideshow-baguettekussen.jpg" style="width:100%">
+            <div class="text">Baguette Kussen</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="plaatjes/slideshow-parapluhoed.png" style="width:100%">
+            <div class="text">Parapluhoed</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="plaatjes/slideshow-chipsvinger.jpg" style="width:100%">
+            <div class="text">Vinger beschermers voor het eten van chips</div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          } 
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+        
+          
+      </script>
+      <br>
+      <footer>
+        <div id="footerverticaleopvulling"></div>
+        <div id="footerhorizontaleopvulling"></div>
+        <img id="footerlogo" src="plaatjes/Amesun Logo (1).PNG" height="30%">
+        <img class="dienst" src="plaatjes/footer/Bezorgen.png" height="30%">
+        <img class="dienst" src="plaatjes/footer/Service.png" height="30%">
+        <img class="dienst2" src="plaatjes/footer/Contact.png" height="30%">
+        <br>
+        <h1>An Amesun Company</h1>
+        <br><br><br>
+        <h2>The Netherlands, Delfgauw/Den Haag</h2>
+        <br><br>
+        <hr>
+        <div class="socials">
+          <a href="https://www.instagram.com"><img class="insta" src="plaatjes/footer/Insta.png" height="100%"></a>
+          <a href="mailto:134458@stanislascollege.net"><img class="mail" src="plaatjes/footer/Mail.png" height="100%"></a>
+          <a href="https://www.youtube.com"><img class="youtube" src="plaatjes/footer/Youtube.png" height="100%"></a>
+          <h3>© 2024 Alle Rechten Voorbehouden, Amesun®</h3>
+        </div>
+      </footer>
     </div>
-
-   <div class="homepaginafoto2"> 
-    <img src="plaatjes/Hoofdpaginafoto-Kleding.png" width="100%">
-    <a href="Kleding.html"><h1>SHOP KLEDING</h1></a>
-  </div>
-
-  <!--Slideshow-->
-  <!-- Credit naar w3schools -->
-  
-  <div class="slideshow">
-
-    <h1>ACCESSOIRES</h1>
-
-  <div class="slideshow-container">
-
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="plaatjes/x-accesoires-baguettekussen.jpg" style="width:100%">
-      <div class="text">Baguette Kussen</div>
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
-      <img src="plaatjes/x-accesoires-parapluhoed.png" style="width:100%">
-      <div class="text">Parapluhoed</div>
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="plaatjes/x-accesores-chipsvinger.jpg" style="width:100%">
-      <div class="text">Vinger beschermers voor het eten van chips</div>
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
-</div>
-
-<script>
-
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  } 
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-
-  </script>
-
-  <br>
-
-  <footer>
-
-    <div id="footerverticaleopvulling"></div>
-    <div id="footerhorizontaleopvulling"></div>
-    <img id="footerlogo" src="plaatjes/Amesun Logo (1).PNG" height="30%">
-    <img class="dienst" src="plaatjes/footer/Bezorgen.png" height="30%">
-    <img class="dienst" src="plaatjes/footer/Service.png" height="30%">
-    <img class="dienst2" src="plaatjes/footer/Contact.png" height="30%">
-    <br>
-    <h1>An Amesun Company</h1>
-    <br><br><br>
-    <h2>The Netherlands, Delfgauw/Den Haag</h2>
-    <br><br><hr>
-    <div class="socials">
-    <a href="https://www.instagram.com"><img class="insta" src="plaatjes/footer/Insta.png" height="100%"></a>
-    <a href="mailto:134458@stanislascollege.net"><img class="mail" src="plaatjes/footer/Mail.png" height="100%"></a>
-    <a href="https://www.youtube.com"><img class="youtube" src="plaatjes/footer/Youtube.png" height="100%"></a>
-    <h3>© 2024 Alle Rechten Voorbehouden, Amesun®</h3>
-    </div>
-      
-  </footer>
-
-</div>
-</body>
-
+  </body>
 </html>
