@@ -395,9 +395,10 @@ footer a {
 
 article{
    width: 400px;
-   height: auto;
+   height: 500px;
    margin: 3%;
-   float: left;  
+   float: left; 
+   background-color: gray; 
 }
 
 article img{
