@@ -327,50 +327,43 @@ footer {
    float :left;
    width: 10%;
    height: 100%;
-   background-color: red;
+   background-color: black;
 }
 
 #footerhorizontaleopvulling {
    float: right;
    width: 90%;
    height: 20%;
-   background-color: red;
+   background-color: black;
 }
 
 #footerlogo {
    float: left;
-   margin-right: 18%;
-}
-
-.service {
-   float: left;
    margin-right: 14%;
 }
 
+.dienst {
+   float: left;
+   margin-right: 13%;
+}
 
 footer h1 {
    color: white;
-   font-size: larger;
+   font-size: 35px;
    float: left;
 }
 
 footer h2 {
    color: white;
-   font-size: 22px;
+   font-size: 18px;
    float: left;
-   margin-left: 14%;
 }
 
-#bezorgd {
-   margin-left: 19.5%;
-}
 
-#tevreden {
-   margin-left: 11%;
-}
-
-#bereikbaar {
-   margin-left: 9.5%;
+footer hr {
+   width: 80%;
+   height: 5px;
+   background-color: white;
 }
 
 footer a {
